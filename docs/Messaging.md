@@ -92,5 +92,3 @@ Both operations create new shards.
 
 - **Splitting:** Increase the strean capacity by splitting. Used to divide an old shard, that will expire.
 - **Merging:** Decrease capacity and reduce costs. Old shards will expire.
-
-
