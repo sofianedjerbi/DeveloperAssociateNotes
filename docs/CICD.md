@@ -3,7 +3,11 @@
 ## CodeCommit Precisions
 
 Repos are encrypted with **KMS encryption** and **in-transit** *(HTTPS/SSH)*.  
-There are events (push, comments...) that can trigger **SNS** notifications.
+There are events (push, comments...) that can trigger **SNS** notifications.  
+To use `git` you must **generate Git credentials from IAM**.  
+Supports **SSH keys, Git Credentials and AWS Access Keys**.
+
+*Note: Do NOT supports IAM user / password*
 
 ## CodePipeline Precisions
 

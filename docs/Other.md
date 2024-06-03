@@ -19,3 +19,14 @@ Supports rollback.
 - **Launches:** Enable and disable features for a subset of users
 - **A/B Testing:** Compare multiple versions of the same feature.
 - **Overrides:** Pre-define a variation for specific users.
+
+## Route 53 - Traffic Flow
+
+An UI that **manage zones**. It is able to show the **geoproximity** map.  
+It is saved into a **traffic policy**.
+
+## Burst Balances
+
+When you go under a certain quota in a service (CPU / IOPS), you gain **burst balances that allow you to go over this quota**.  
+
+*Note: You lose your balance when creating new instances*

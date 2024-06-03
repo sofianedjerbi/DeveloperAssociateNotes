@@ -144,17 +144,20 @@ Resources:
 
 Available logical functions: **equals, and, or, if, not**
 
-*Example conditions: Environment test, prod, region...*
+*Example conditions: Environment test, prod, region...*  
+*Cannot be used within the parameter section*
 
 ## Intrinsic Functions
 
 ### To Know:
 - **`Ref`**: Retrieves the value of a specified parameter or resource.
 - **`GetAtt`**: Fetches the value of an attribute from a resource in the template.
-- **`FindInMap`**: Returns a named value from a specifically defined map.
+- **`FindInMap`**: Returns a named value from a specifically defined map. Only 2 levels.
 - **`ImportValue`**: Imports values exported from other stacks.
 - **`Base64`**: Encodes content to Base64 format.
 - **Condition Functions** (like `If`, `Equals`): Evaluate conditions to control resource creation and properties.
+
+`!FindInMap [ MapName, TopLevelKey, SecondLevelKey ]`
 
 ### Others:
 - **`Join`**: Concatenates multiple strings into a single string with a specified delimiter.

@@ -61,7 +61,8 @@ URL is for **individual files**, Cookie is used for **many files**.
 An origin group contains **multiple origins**.  
 A **failover** will occur if the primary origin don't respond with OK to CloudFront.  
 
-*Ex: Multi-region failover S3 buckets to protect against region outrages*
+*Ex: Multi-region failover S3 buckets to protect against region outrages*  
+*Ex: Deliver static content from S3 and other content from an ALB*
 
 ## Field Level Encryption
 

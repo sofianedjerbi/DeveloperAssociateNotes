@@ -137,5 +137,10 @@ Not a container, not persistent storage, no interactive acess, no external netwo
 
 *Use case: Processing credit cards, secure multi-party computation*
 
+## IAM Certificates Manager
 
+**IAM is used as a certificate manager** when you must support HTTPS connections in a Region that is not supported by ACM. 
 
+## ALB Access Logs
+
+**Log information** such as latency or IP address **about requests sent to ALBs**.
